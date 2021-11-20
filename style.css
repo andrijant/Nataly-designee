@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Roboto:wght@400;700&display=swap');
+:root {
+    --violet: rgb(65, 42, 107);
+    --yellow: #fadb61;
+    --gray: #f8f8f8;
+    --red: #f34a37;
+    --red2: #cf1313;
+    --blue1: #015281;
+    --blue2: #003a61;
+}
+/* basic */
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+}
+a {
+    color: var(--red);
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+h1, h2 , h3, h4, h5 {
+    font-family: 'Allison', cursive;
+    /* font-size: 5rem; */
+    color: var(--red);
+}
+h2::after {
+    display: block;
+    content: "";
+    width: 200px;
+    height: 10px;
+    background: linear-gradient(to right, rgba(207, 19, 19, 1), rgba(207, 19, 19, .7));
+    margin: 10px auto 0 auto;
+    opacity: 0.8;
+}
+/* buttons */
+.btn {
+    background: linear-gradient(to right, rgba(207, 19, 19, 1), rgba(207, 19, 19, .7));
+    color: white;
+    opacity: 0.8;
+}
+.btn:active{
+    border: none !important;
+    border-style: none !important;
+}
+button {
+    outline: none !important;
+}
+
+/* background */
+.about,
+.collections,
+.contact-form,
+.blog,
+.navbar {
+    background-image: url(./images/background/background.jpg);
+    background-attachment: fixed;
+}
+/* navbar */
+
+.fa-bars {
+    color: var(--red);
+}
+.navbar-brand {
+    font-family: 'Allison', cursive;
+    font-size: 40px;
+}
+.navbar-brand img {
+    width: 70px;
+}
+
+
+/* carousel */
+.carousel h4 {
+    color: var(--blue);
+}
+
+
+/* about */
+.about span {
+    font-family: 'Allison', cursive;
+    font-size: 40px;
+    color: var(--red);
+}
+/* .about .stamp {
+    transform: rotate(15deg)    
+}
+.about .stamp img {
+    opacity: 0.5;
+} */
+
+/* slider owl */
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot span {
+    background: var(--red);
+    opacity: 0.2;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--red);
+    opacity: 1;
+}
+.owl-carousel .card-title {
+    font-size: 27px;
+}
+.owl-carousel .card-body {
+    background-color: rgb(241, 228, 210);
+}
+/* collections */
+.collections img {
+    transition: 500ms;  
+}
+.collections img:hover {
+    transform: scale(1.03);
+}
+.collections-card h3 {
+    font-size: 50px;
+    
+}
+
+
+/* footer */
+.copyright {
+    background: linear-gradient(to right, rgba(207, 19, 19, 1), rgba(207, 19, 19, .7));
+    color: white;
+    font-size: 14px;
+    
+}
+.copyright a {
+    font-family: 'Allison', cursive;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.copyright a:hover {
+    opacity: 0.7;
+}
+.social-icons a:hover {
+    color: var(--red);
+    opacity: 0.7;
+}
+
+/* contact form */
+ 
