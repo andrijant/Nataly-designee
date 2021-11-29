@@ -1,0 +1,226 @@
+[
+    {
+    "imgSrc": "Cloud03",
+    "productTitle": "Dečija majica",
+    "model": "Cloud",
+    "price": "1.800",
+    "colection": "Dečije",
+    "color": "white"
+    },
+    {
+    "imgSrc": "Robot03",
+    "productTitle": "Dečija majica",
+    "model": "Robot",
+    "price": "1.800",
+    "colection": "Dečije",
+    "color": "white"
+    },
+    {
+    "imgSrc": "Sunset03",
+    "productTitle": "Muška majica",
+    "model": "Sunset",
+    "price": "1.800",
+    "colection": "Muške",
+    "color": "grey"
+    },
+    {
+    "imgSrc": "Girl from the future04",
+    "productTitle": "Ženska majica",
+    "model": "Girl from the future",
+    "price": "1.800",
+    "colection": "Figure",
+    "color": "turquoise"
+    },
+    {
+    "imgSrc": "Pop art03",
+    "productTitle": "Ženska majica",
+    "model": "Pop art",
+    "price": "1.800",
+    "colection": "Figure",
+    "color": "white"
+    },
+    {
+    "imgSrc": "Tea time01",
+    "productTitle": "Ženska majica",
+    "model": "Tea time",
+    "price": "1.800",
+    "colection": "Figure",
+    "color": "white"
+    },
+    {
+    "imgSrc": "Tea time03",
+    "productTitle": "Ženska majica",
+    "model": "Tea time",
+    "price": "1.800",
+    "colection": "Figure",
+    "color": "malaga"
+    },
+    {
+    "imgSrc": "Summer feelings04",
+    "productTitle": "Ženska majica",
+    "model": "Summer feelings",
+    "price": "1.800",
+    "colection": "Figure",
+    "color": "red"
+    },
+    {
+    "imgSrc": "Frida03",
+    "productTitle": "Ženska majica",
+    "model": "Frida",
+    "price": "1.800",
+    "colection": "Figure",
+    "color": "green"
+    },
+    {
+    "imgSrc": "Marilyn03",
+    "productTitle": "Ženska majica",
+    "model": "Marilyn",
+    "price": "1.800",
+    "colection": "Figure",
+    "color": "yellow"
+    },
+    {
+    "imgSrc": "Portrait03",
+    "productTitle": "Ženska majica",
+    "model": "Portrait",
+    "price": "1.800",
+    "colection": "Figure",
+    "color": "white"
+    },
+    {
+    "imgSrc": "Spring breeze03",
+    "productTitle": "Ženska majica",
+    "model": "Spring breeze",
+    "price": "1.800",
+    "colection": "Natura",
+    "color": "white"
+    },
+    {
+    "imgSrc": "Spring breeze04",
+    "productTitle": "Ženska majica",
+    "model": "Spring breeze",
+    "price": "1.800",
+    "colection": "Natura",
+    "color": "yellow"
+    },
+    {
+    "imgSrc": "Wreath03",
+    "productTitle": "Ženska majica",
+    "model": "Wreath",
+    "price": "1.800",
+    "colection": "Natura",
+    "color": "yellow"
+    },
+    {
+    "imgSrc": "Sunflower03",
+    "productTitle": "Ženska majica",
+    "model": "Sunflower",
+    "price": "1.800",
+    "colection": "Kompozicije",
+    "color": "yellow"
+    },
+    {
+    "imgSrc": "Op-art03",
+    "productTitle": "Ženska majica",
+    "model": "Op-art",
+    "price": "1.800",
+    "colection": "Kompozicije",
+    "color": "yellow"
+    },
+    {
+    "imgSrc": "Planet03",
+    "productTitle": "Ženska majica",
+    "model": "Planet01",
+    "price": "1.800",
+    "colection": "Kompozicije",
+    "color": "lightyellow"
+    },
+    {
+    "imgSrc": "Planet04",
+    "productTitle": "Dečija majica",
+    "model": "Planet01",
+    "price": "1.800",
+    "colection": "Kompozicije",
+    "color": "white"
+    },
+    {
+    "imgSrc": "Moonlight butterflies03",
+    "productTitle": "Ženska majica",
+    "model": "Moonlight butterflies",
+    "price": "1.800",
+    "colection": "Kompozicije",
+    "color": "grey"
+    },
+    {
+    "imgSrc": "New Year Miracle03",
+    "productTitle": "Ženska majica",
+    "model": "New Year Miracle",
+    "price": "1.800",
+    "colection": "Kompozicije",
+    "color": "lightyellow"
+    },
+    {
+    "imgSrc": "Bird of paradise04",
+    "productTitle": "Ženska majica",
+    "model": "Bird of paradise",
+    "price": "1.800",
+    "colection": "Kompozicije",
+    "color": "white"
+    },
+    {
+    "imgSrc": "Bird of paradise03",
+    "productTitle": "Ženska majica",
+    "model": "Bird of paradise",
+    "price": "1.800",
+    "colection": "Kompozicije",
+    "color": "red"
+    },
+    {
+    "imgSrc": "Life03",
+    "productTitle": "Ženska majica",
+    "model": "Life",
+    "price": "1.800",
+    "colection": "Kompozicije",
+    "color": "grey"
+    },
+    {
+    "imgSrc": "Collage03",
+    "productTitle": "Ženska majica",
+    "model": "Collage",
+    "price": "1.800",
+    "colection": "Kompozicije",
+    "color": "blue"
+    },
+    {
+    "imgSrc": "Collage02",
+    "productTitle": "Ženska majica",
+    "model": "Collage",
+    "price": "1.800",
+    "colection": "Kompozicije",
+    "color": "white"
+    },
+    {
+    "imgSrc": "Girl in the Yellow Dress01",
+    "productTitle": "Ženska majica",
+    "model": "Girl in the Yellow Dress",
+    "price": "1.800",
+    "colection": "Kompozicije",
+    "color": "purple"
+    },
+    {
+    "imgSrc": "Girl in the Yellow Dress02",
+    "productTitle": "Ženska majica",
+    "model": "Girl in the Yellow Dress",
+    "price": "1.800",
+    "colection": "Kompozicije",
+    "color": "violet"
+    },
+    {
+    "imgSrc": "Dizeer03",
+    "productTitle": "Ženska majica",
+    "model": "Dizeer",
+    "price": "1.800",
+    "colection": "Kompozicije",
+    "color": "white"
+    }
+]

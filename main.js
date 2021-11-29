@@ -24,7 +24,7 @@ function createOwlData(data) {
       <div class="card">
           <img src="./images/products/${user.imgSrc}.jpg" alt="">
           <div class="card-body">
-            <h3 class="card-title">${user.model}</h3>
+            <h3 class="card-title">${user.model}Model</h3>
           </div>
         </div>
       `

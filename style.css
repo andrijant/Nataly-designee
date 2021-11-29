@@ -26,7 +26,6 @@ a:hover {
 }
 h1, h2 , h3, h4, h5 {
     font-family: 'Allison', cursive;
-    /* font-size: 5rem; */
     color: var(--red);
 }
 h2::after {
@@ -45,11 +44,11 @@ h2::after {
     opacity: 0.8;
 }
 .btn:active{
-    border: none !important;
-    border-style: none !important;
+    border: none;
+    border-style: none;
 }
 button {
-    outline: none !important;
+    outline: none;
 }
 
 /* background */
@@ -79,21 +78,12 @@ button {
 .carousel h4 {
     color: var(--blue);
 }
-
-
 /* about */
 .about span {
     font-family: 'Allison', cursive;
     font-size: 40px;
     color: var(--red);
 }
-/* .about .stamp {
-    transform: rotate(15deg)    
-}
-.about .stamp img {
-    opacity: 0.5;
-} */
-
 /* slider owl */
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot span {
     background: var(--red);
@@ -118,10 +108,7 @@ button {
 }
 .collections-card h3 {
     font-size: 50px;
-    
 }
-
-
 /* footer */
 .copyright {
     background: linear-gradient(to right, rgba(207, 19, 19, 1), rgba(207, 19, 19, .7));
