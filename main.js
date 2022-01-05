@@ -1,11 +1,11 @@
 function loadData() {
   let xml = new XMLHttpRequest();
-  let url = "https://raw.githubusercontent.com/andrijant/Nataly-designee/main/products.json";
+  let url = "products.json";
   xml.open('GET', url);
   xml.onreadystatechange = function() {
     if (xml.readyState === 4 && xml.status === 200) {
       createProductsData(JSON.parse(xml.responseText));
-      //createOwlData(JSON.parse(xml.responseText));
+      
     }
   }
   xml.send();
@@ -13,52 +13,48 @@ function loadData() {
 loadData();
 
 
-let owlCarousel = document.querySelector('.owl-carousel');
-let templateOwl =``;
-
-function createOwlData(data) {
-  let dbProducts = data;
-  for (let i = 0; i < dbProducts.length; i++) {
-      const user = dbProducts[i];
-      templateOwl +=`
-      <div class="card">
-          <img src="./images/products/${user.imgSrc}.jpg" alt="">
-          <div class="card-body">
-            <h3 class="card-title">${user.model}Model</h3>
-          </div>
-        </div>
-      `
-  };
-
-owlCarousel.innerHTML = templateOwl;
-};
-
-
-
 
 let products = document.querySelector('.products');
 let templateProducts = ``;
 
 function createProductsData(data) {
-  //console.log(data);
-  let dbProducts = data;
+ let dbProducts = data;
   for (let i = 0; i < dbProducts.length; i++) {
     const user = dbProducts[i];
     templateProducts +=`
-    <div class="col-lg-3 col-md-6 mb-4">
-      <a href="">
-        <div class="card">
-          <img src="./images/products/${user.imgSrc}.jpg" alt="">
-          <div class="card-body">
-            <h3 class="card-title">${user.productTitle} : <br> ${user.model}</h3>
-          </div>
+    <div class="product-card col-lg-3 col-md-6 mb-4">
+      <div class="card m-auto img-thumbnail">
+        <img class="product-card-img image-link gallery-img" src="./images/products/${user.imgSrc}.jpg" alt="${user.productTitle}: ${user.model}">
+        <div class="card-body">
+          <h5>${user.productTitle} : </h5>
+          <h4>${user.model} </h4>
+          <h5>cena: ${user.price} <h5>
         </div>
-      </a>
+      </div>
     </div>
     `
   };
-  
   products.innerHTML = templateProducts;  
 };
 
-//createProductsData();
+
+
+function createProductDeatiled() {
+  let dbProducts = data;
+   for (let i = 0; i < dbProducts.length; i++) {
+     const user = dbProducts[i];
+     templateProductDetailed +=`
+     <div class="product-card col-md-10 mb-4">
+       <div class="card m-auto img-thumbnail">
+         <img class="product-card-img image-link gallery-img" src="./images/products/${user.imgSrc}.jpg" alt="${user.productTitle}: ${user.model}">
+         <div class="card-body">
+           <h5>${user.productTitle} : </h5>
+           <h4>${user.model} </h4>
+           <h5>cena: ${user.price} <h5>
+         </div>
+       </div>
+     </div>
+     `
+   };
+   products.innerHTML = templateProducts;  
+ };

@@ -196,7 +196,7 @@
     "productTitle": "Ženska majica",
     "model": "Elizabeth",
     "price": "1.800",
-    "colection": "Figure",
+    "colection": "Lica",
     "color": "white"
     },
     {
@@ -204,7 +204,7 @@
     "productTitle": "Ženska majica",
     "model": "Elizabeth",
     "price": "1.800",
-    "colection": "Figure",
+    "colection": "Lica",
     "color": "black"
     },
     {
@@ -212,7 +212,7 @@
     "productTitle": "Ženska majica",
     "model": "Frida",
     "price": "1.800",
-    "colection": "Figure",
+    "colection": "Lica",
     "color": "white"
     },
     {
@@ -220,7 +220,7 @@
     "productTitle": "Ženska majica",
     "model": "Frida",
     "price": "1.800",
-    "colection": "Figure",
+    "colection": "Lica",
     "color": "green"
     },
     {
@@ -228,7 +228,7 @@
     "productTitle": "Ženska majica",
     "model": "Frida forever",
     "price": "1.800",
-    "colection": "Figure",
+    "colection": "Lica",
     "color": "yellow"
     },
     {
@@ -236,7 +236,7 @@
     "productTitle": "Ženska majica",
     "model": "Frida forever",
     "price": "1.800",
-    "colection": "Figure",
+    "colection": "Lica",
     "color": "white"
     },
     {
@@ -434,7 +434,7 @@
     {
     "imgSrc": "Op-art01",
     "productTitle": "Ženska majica",
-    "model": "v",
+    "model": "Op-art",
     "price": "1.800",
     "colection": "Kompozicije",
     "color": "white"
